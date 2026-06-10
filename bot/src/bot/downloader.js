@@ -1,4 +1,4 @@
-import { config } from "./config";
+import { config } from "./config.js";
 
 export const downloader = {
   // Simple regex check for supported platforms
