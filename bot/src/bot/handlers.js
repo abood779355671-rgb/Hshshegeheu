@@ -1,7 +1,7 @@
-import { db } from "./database";
-import { keyboards } from "./keyboards";
-import { downloader } from "./downloader";
-import { config } from "./config";
+import { db } from "./database.js";
+import { keyboards } from "./keyboards.js";
+import { downloader } from "./downloader.js";
+import { config } from "./config.js";
 
 const getTelegramAPI = () => `https://api.telegram.org/bot${config.botToken}`;
 
