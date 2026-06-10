@@ -1,6 +1,6 @@
-import { handlers } from "./handlers";
-import { db } from "./database";
-import { config, validateConfig } from "./config";
+import { handlers } from "./handlers.js";
+import { db } from "./database.js";
+import { config, validateConfig } from "./config.js";
 
 export async function POST(request) {
   try {
